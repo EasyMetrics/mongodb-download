@@ -6,6 +6,7 @@
   "bin": "built/mongodb-download-cli.js",
   "types": "built/mongodb-download.d.ts",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
     "test": "mocha"
   },
   "repository": {
@@ -34,7 +35,8 @@
   "devDependencies": {
     "@types/node": "^8.0.51",
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "typescript": "^2.6.1"
   },
   "homepage": "https://github.com/winfinit/mongodb-download#readme"
 }
